@@ -1,0 +1,126 @@
+Hi and wlcome to Socket Detectiv 
+its app allow to you scan port (mabe legal on not lol)
+all of your doing with this on your own and we not say doing some not leagel 
+its app have three option : 
+coustom section : coustom port range  
+tcp-full : range of advance port using in networks and recomend
+tcp-recomend : just recomend ports
+
+and now qustion its how to use it 
+you have two switch (mabe more in outher verstions)
+hare its switches : 
+-P : for port range {
+  after -P switch we go for a min port and next max port 
+}
+-L : for using lists in app {
+  TCP-recomend : for recomnds ports 
+  TCP-full : for advance ports 
+}
+hare is example for two of them 
+192.168.1.1 -P 0 10 
+192.168.1.1 -L TCP-recomed 
+192.168.1.1 -L TCP-full
+
+
+hare is the list of ports :
+1. **TCP-full List** (scans the following ports):
+              20,    // FTP (Data)
+    21,    // FTP (Control)
+    22,    // SSH
+    23,    // Telnet
+    25,    // SMTP
+    53,    // DNS (TCP)
+    67,    // DHCP (Server)
+    68,    // DHCP (Client)
+    69,    // TFTP
+    80,    // HTTP
+    110,   // POP3
+    123,   // NTP
+    135,   // RPC
+    137,   // NetBIOS Name Service
+    138,   // NetBIOS Datagram Service
+    139,   // NetBIOS Session Service
+    143,   // IMAP
+    443,   // HTTPS
+    465,   // SMTP (Secure)
+    514,   // Syslog
+    520,   // RIP
+    554,   // RTSP
+    563,   // NNTP (Secure)
+    993,   // IMAP over SSL
+    995,   // POP3 over SSL
+    1080,  // SOCKS Proxy
+    1433,  // MSSQL
+    1521,  // Oracle Database
+    161,   // SNMP
+    162,   // SNMP Trap
+    179,   // BGP
+    389,   // LDAP
+    445,   // SMB
+    873,   // RSYNC
+    2049,  // NFS
+    3268,  // Global Catalog
+    3306,  // MySQL
+    3389,  // RDP
+    5432,  // PostgreSQL
+    5900,  // VNC
+    6379,  // Redis
+    8080,  // HTTP Alternative
+    8081,  // HTTP Alternative
+    8443,  // HTTPS Alternative
+    9200,  // Elasticsearch
+    1812,  // RADIUS Authentication
+    1813,  // RADIUS Accounting
+    27017, // MongoDB
+    11211, // Memcached
+    1883,  // MQTT
+    8883,  // MQTT Secure
+    500,   // IPSec/IKE
+    514,   // Syslog
+    161,   // SNMP
+    2427,  // SIP
+    5060,  // SIP (UDP)
+    5061,  // SIP (Secure)
+    5222,  // XMPP (Jabber) (Client connection)
+    5269,  // XMPP (Jabber) (Server connection)
+    25,    // SMTP
+    993,   // IMAPS
+    1194,  // OpenVPN
+    1701,  // L2TP
+    3389,  // RDP
+    22,    // SSH
+    443,   // HTTPS
+    2049,  // NFS
+    520,   // RIP
+    2427,  // SIP
+    500,   // ISAKMP (for VPN)
+    5060,  // SIP (Voice Over IP)
+    1194,  // OpenVPN
+    1701,  // L2TP (Layer 2 Tunnel Protocol)
+    1812,  // RADIUS Authentication
+    1813,  // RADIUS Accounting
+    520,   // RIP
+    524,   // NCP
+    25,    // SMTP
+    23,    // Telnet
+    31337  // Back Orifice (used in exploits)
+
+
+
+    2. **TCP-recomend List** (commonly used ports):
+            20,    // FTP (Data)
+            21,    // FTP (Control)
+            22,    // SSH
+            23,    // Telnet
+            25,    // SMTP
+            53,    // DNS
+            80,    // HTTP
+            110,   // POP3
+            143,   // IMAP
+            443,   // HTTPS
+            3389,  // RDP
+            465,   // SMTP (Secure)
+            993,   // IMAP (Secure)
+            995    // POP3 (Secure)
+
+Now its time to start
